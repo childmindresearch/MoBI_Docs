@@ -26,3 +26,5 @@ markdown_extensions:
   - pymdownx.snippets
   - def_list
   - pymdownx.tasklist
+
+site_url: https://kimit0310.github.io/MoBI_Docs/
