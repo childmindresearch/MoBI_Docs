@@ -1,0 +1,28 @@
+site_name: MoBI Setup Documentation
+nav:
+  - Home: index.md
+  - About: about.md
+  - Computing: computing.md
+  - EEG: EEG.md
+  - EyeTracking: EyeTracking.md
+  - Physiology: Physiology.md
+  - Audio: Audio.md
+  - Video: Video.md
+  - Motion Capture: MotionCapture.md
+  - 3D Scanning: 3D.md
+  - Cogpsych: Cogpsych.md
+theme: readthedocs
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji
+  - footnotes
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+  - def_list
+  - pymdownx.tasklist

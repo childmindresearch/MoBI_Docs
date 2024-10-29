@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>EyeTracking - MoBI Setup Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "EyeTracking";
+        var mkdocs_page_input_path = "EyeTracking.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> MoBI Setup Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../about/">About</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../computing/">Computing</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../EEG/">EEG</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">EyeTracking</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#specifications">Specifications</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#adult-frames-just-act-normal">Adult frames: Just Act Normal</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#child-frames-all-fun-and-games-ages-2-8">Child frames: All Fun and Games (Ages 2 - 8)</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hardware-setup">Hardware Setup</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#out-of-box-setup-for-neon-by-pupil-labs">Out of Box Setup for Neon by Pupil Labs</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#equipment">Equipment</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#setup-steps">Setup Steps</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#vosque-uno-moveri-proxima-esse-fuit">Vosque uno moveri proxima esse fuit</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#test-recording">Test Recording</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#venerit-spes-timidumque-et">Venerit spes timidumque et</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Physiology/">Physiology</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Audio/">Audio</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Video/">Video</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../MotionCapture/">Motion Capture</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../3D/">3D Scanning</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Cogpsych/">Cogpsych</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">MoBI Setup Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">EyeTracking</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="wearable-eye-tracker">Wearable Eye Tracker</h1>
+<h2 id="specifications">Specifications</h2>
+<table>
+<thead>
+<tr>
+<th><em>Specification</em></th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Sampling Rate</em></td>
+<td>Up to 200Hz, default 200Hz</td>
+</tr>
+<tr>
+<td><em>Gaze Accuracy</em></td>
+<td>1.8° uncalibrated, 1.3° with offset correction</td>
+</tr>
+<tr>
+<td><em>Gaze Spatial Resolution</em></td>
+<td>1600x1200 px</td>
+</tr>
+<tr>
+<td><em>PC Interface</em></td>
+<td>Neon Companion App, LSL Relay</td>
+</tr>
+<tr>
+<td><em>Eye Tracking Technology</em></td>
+<td>Real-time neural network</td>
+</tr>
+<tr>
+<td><em>Binocular Eye Tracking</em></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><em>Calibration</em></td>
+<td>Calibration-free</td>
+</tr>
+<tr>
+<td><em>Slippage Compensation</em></td>
+<td>Slippage invariant. Deep learning powered.</td>
+</tr>
+<tr>
+<td><em>Scene Camera</em></td>
+<td>1600 x 1200 @ 30Hz</td>
+</tr>
+<tr>
+<td></td>
+<td>H: 1320, V: 810</td>
+</tr>
+<tr>
+<td><em>Eye Cameras</em></td>
+<td>2 x IR eye cameras</td>
+</tr>
+<tr>
+<td></td>
+<td>192 x 192 @ 200 Hz</td>
+</tr>
+<tr>
+<td><em>IMU</em></td>
+<td>Accelerator, Magnetometer, Gyroscope</td>
+</tr>
+<tr>
+<td><em>Microphone</em></td>
+<td>Dual microphone</td>
+</tr>
+<tr>
+<td><em>Battery Recording Time</em></td>
+<td>Up to 4 hours</td>
+</tr>
+<tr>
+<td></td>
+<td>25+ hours of recording storage</td>
+</tr>
+<tr>
+<td><em>Cable</em></td>
+<td>USB-C</td>
+</tr>
+<tr>
+<td><em>Computing Device</em></td>
+<td>Mobile phone: Motorola Edge 40 Pro</td>
+</tr>
+<tr>
+<td><em>Real-time Data</em></td>
+<td>2D gaze points in scene camera coordinates at 200 Hz<br>Full head pose, accelerometer and gyro data at 110 Hz<br>IR eye video showing fused eye regions at 200Hz<br>RGB scene video at 30 Hz &amp; Pupilometry data and eye state<br> (Available in Pupil Cloud) Eye position, eye orientation, pupil diameter</td>
+</tr>
+<tr>
+<td><em>Software</em></td>
+<td>Real-time: Neon Companion App</td>
+</tr>
+<tr>
+<td></td>
+<td>Post-hoc: Pupil Cloud</td>
+</tr>
+</tbody>
+</table>
+<p>Documentation from Pupil Labs spanning the following topics: Hardware, Data Collection, Pupil Cloud (tool where data is uploaded), Neon Player (tool for playing back and exporting recordings), Real-Time API, Neon XR <a href="https://docs.pupil-labs.com/neon/">Here</a>.</p>
+<h3 id="adult-frames-just-act-normal">Adult frames: Just Act Normal</h3>
+<p><center><img alt="Adult Frames" src="../img/EyeTracking/1.png" /></center></p>
+<h3 id="child-frames-all-fun-and-games-ages-2-8">Child frames: All Fun and Games (Ages 2 - 8)</h3>
+<p><center><img alt="Child Frames" src="../img/EyeTracking/2.png" /></center></p>
+<h2 id="hardware-setup">Hardware Setup</h2>
+<h3 id="out-of-box-setup-for-neon-by-pupil-labs">Out of Box Setup for Neon by Pupil Labs</h3>
+<h4 id="equipment">Equipment</h4>
+<p>The following equipment should be included in the Pupil Labs hardware: </p>
+<ul>
+<li>Phone to run the wearable eye tracker </li>
+<li>Adult frames (that has a space to store the Anker phone)</li>
+<li>Child frames </li>
+<li>Lens kit </li>
+</ul>
+<p><center><img alt="Boxes" src="../img/EyeTracking/3.png" /></center></p>
+<p>You will also need an Anker dongle <a href="https://www.amazon.com/Anker-PowerExpand-Ethernet-Delivery-MacBook/dp/B08C9HZ5YT/">Amazon link</a>. This is not included with Pupil Lab Neon and has been ordered separately.</p>
+<h3 id="setup-steps">Setup Steps</h3>
+<p>Please follow steps 1 - 9 for the Out of Box instructions to setup the hardware (the wearable glasses)</p>
+<ol>
+<li>
+<p>Open the Adult frames and pull out the phone. Turn on the phone.</p>
+<ul>
+<li>Put a screen protector and a case [link to case] on the phone. Follow the instructions per the screen protection kit: [link to screen protector].</li>
+<li>Login for phone: 0000 (press 4 times and then press enter - this is not like iPhone where it will go automatically).</li>
+<li>Use the following Google Account to set-up the phone. This is the Google account used from Neon Companion App and Pupil Labs Cloud:<ul>
+<li>User:</li>
+<li>PW: </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Open the Neon Pamphlet and follow the instructions, which are also written in steps 3 - 4.</p>
+</li>
+<li>
+<p>Install Neon Companion App. Open Google Play Store and search “Neon Companion”.</p>
+</li>
+<li>
+<p>Open Neon Companion App.</p>
+</li>
+<li>
+<p>Plug glasses into the phone.</p>
+<ul>
+<li>First time you plug in glasses to the phone, it will ask you to allow the Neon Companion to access the Neon Sensor Module and Neon Scene Camera v1. Check the Always open… box, and press OK. <br>
+<img src="../img/EyeTracking/5.png" width='300px'>
+<img src="../img/EyeTracking/6.png" width='300px'></li>
+</ul>
+</li>
+<li>
+<p>In the Neon Companion App, there are three “tabs” at the bottom.</p>
+<ul>
+<li><span style="color:red;">⭘ (red)</span> - Allows you to view recordings.</li>
+<li><span style="color:blue;">⭘ (blue)</span> - Recording screen.</li>
+<li><span style="color:green;">⭘ (green)</span> - Live Preview. This shows you the view from the glasses.</li>
+</ul>
+</li>
+<li>
+<p>You need to set-up different “Wearers” on the account. Make sure you are in the recording tab (see #6; the blue circle in the image). In the recording tab, go to the bottom left side and click on “Wearer”.</p>
+<ul>
+<li>Create a wearer called “tester” to run a test recording.</li>
+<li>Click “Switch Wearer” to create different wearer profiles. Then click the “+ New Wearer” bottom on the bottom right.</li>
+</ul>
+</li>
+<li>
+<p>There needs to be 16 different profiles to accommodate users and participants with varying inter eye distance. Label profiles with just a single number, 50-65. For each profile, click “Adjust” under “Inter Eye Distance” and slide accordingly for the right profile.</p>
+</li>
+<li>
+<p>To switch between wearer profiles, click “Switch Wearer” and then click on the profile you want. Click “Activate” to switch to that profile.</p>
+</li>
+</ol>
+<p><strong>The hardware is all set-up and ready to start recording!</strong></p>
+<h2 id="vosque-uno-moveri-proxima-esse-fuit">Vosque uno moveri proxima esse fuit</h2>
+<p>Magnique moenia Herculis Daedalon amnis humus limen, dent cum tenent arbiter:
+nulli. Quodque <a href="http://versatnon.net/pictispartes">saepes</a>, quas gestu
+alimentaque ulvae postquam <strong>fata sonumque</strong>! Ima <strong>prius</strong>, est ardere summo,
+et longa caelum occumbere in dixerat trementi.</p>
+<ul>
+<li>Iram matrisque templa novercam iactatis clamat cupidine</li>
+<li>Et letum miserabilis modo</li>
+<li>Aequora solidumve fratri</li>
+<li>Vix probor quin breve</li>
+<li>Lux Pirenida sacrifica rapuere</li>
+<li>Aura dilata quoniam genitoris gratia</li>
+</ul>
+<h2 id="test-recording">Test Recording</h2>
+<h2 id="venerit-spes-timidumque-et">Venerit spes timidumque et</h2>
+<p>Illos in cupidine avidi. Sub albus claro <strong>nitidum sidere nitentia</strong> irascere,
+<strong>silva omnes</strong> terrebit. At Thracum virgae dicta. Auras ferventibus vestis
+pervenientia detrahat Baucis, cervice sit mentoque, virtus? Exhortor palmite
+poposcit, non aetas stratosque licet Nereides: nacta inpatiens modo nihil deorum
+vilibus.</p>
+<blockquote>
+<p>Nec Procne erit proelia, umeris quem, petunt, <strong>est positis erat</strong>. Per
+dominum tractata. Sustinet quo; virilem cognoscere visa, in imago.</p>
+</blockquote>
+<p>Per visus Lycaoniae cortice. Dixit in despecta umbra. Me tulit flumine imas
+dicor aetatis orbam insula ultra sua densetur; ille. Lacteus orbis sed breve,
+cara, e tortum tepido ferrum, <em>dolet</em> oblivia Hyries equidem saevior usus
+<strong>ventis</strong>. Videre motasse, cum tela lyncum, servabunt mansit Arcadiae et
+extemplo longa.</p>
+<p>Lorem markdownum situsque ut ligari voluptas dummodo moras fata vela lecti
+fecere parentis saxea. Primordia quia timentem suadent Heliades, Tonantis aves
+nunc tenditur. Latuere volenti solita et inprudens feras. Vidi Lichan at Aeson
+et <strong>lapis reluxit</strong>. Viri medio tamen thalami tinguet, clausas, in ambit mille,
+ego invadunt Dauno illi!</p>
+<pre><code>var port = codec - 85 - hertz;
+if (cc == log - parse_dv) {
+    output = systemMask.address(syn_ipx, winsockUndoLaser);
+    cpm += 3;
+} else {
+    parameter = olap_type_browser;
+    digitalPaper = add(ppm_bot, cloud_minisite_networking) +
+            peripheral_quad_radcab;
+    passiveVersion(motion_box_address, halftoneProgram, icfVideo);
+}
+var spider_toslink = 4 - rw + hardeningBatchBoolean + 973276;
+</code></pre>
+<ol>
+<li>First main item<ul>
+<li>First sub-item<ul>
+<li>First sub-sub-item</li>
+<li>Second sub-sub-item</li>
+<li>Third sub-sub-item</li>
+</ul>
+</li>
+<li>Second sub-item<ul>
+<li>Another sub-sub-item</li>
+<li>Yet another sub-sub-item</li>
+</ul>
+</li>
+<li>Third sub-item</li>
+</ul>
+</li>
+<li>Second main item<ol>
+<li>Another sub-item<ul>
+<li>Sub-sub-item</li>
+<li>Another sub-sub-item</li>
+</ul>
+</li>
+<li>Final sub-item</li>
+</ol>
+</li>
+<li>Third main item</li>
+</ol>
+<p>Orange words incoming: <span style="color:orange;">Word up</span>.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../EEG/" class="btn btn-neutral float-left" title="EEG"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Physiology/" class="btn btn-neutral float-right" title="Physiology">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../EEG/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Physiology/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
