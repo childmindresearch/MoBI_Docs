@@ -29,7 +29,7 @@
 
 Documentation from Pupil Labs spanning the following topics: Hardware, Data Collection, Pupil Cloud (tool where data is uploaded), Neon Player (tool for playing back and exporting recordings), Real-Time API, Neon XR [Here](https://docs.pupil-labs.com/neon/).
 
-### Adult frames: Just Act Normal
+### Adult frames: Just Act Natural
 
 <center>![Adult Frames](img/EyeTracking/1.png)</center>
 

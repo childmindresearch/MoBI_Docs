@@ -127,7 +127,7 @@ Orange words incoming: <span style="color:orange;">Word up</span>.
 
 ### Sub & Superscript
 
-29^th^ H~2~0
+29^th^ H~2~O
 
 ### Emojis & Keyboard Keys
 
