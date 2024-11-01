@@ -1,64 +1,47 @@
-# Constitit tabellae mihi prohibentque novum ineo gravi
+# Logitech C922 Pro HD Stream Webcam
 
-## Fontis et ramos
 
-Lorem markdownum situsque ut ligari voluptas dummodo moras fata vela lecti
-fecere parentis saxea. Primordia quia timentem suadent Heliades, Tonantis aves
-nunc tenditur. Latuere volenti solita et inprudens feras. Vidi Lichan at Aeson
-et **lapis reluxit**. Viri medio tamen thalami tinguet, clausas, in ambit mille,
-ego invadunt Dauno illi!
+## Specifications
 
-    var port = codec - 85 - hertz;
-    if (cc == log - parse_dv) {
-        output = systemMask.address(syn_ipx, winsockUndoLaser);
-        cpm += 3;
-    } else {
-        parameter = olap_type_browser;
-        digitalPaper = add(ppm_bot, cloud_minisite_networking) +
-                peripheral_quad_radcab;
-        passiveVersion(motion_box_address, halftoneProgram, icfVideo);
-    }
-    var spider_toslink = 4 - rw + hardeningBatchBoolean + 973276;
 
-## Illa inter humana et voverat quam qua
+| _Specification_ | Details  |
+|------------|-----------|
+| _Resolution_| 1080p/30 fps, 720p/ 60 fps, 720p/ 30 fps |
+| _Mounting_         | Universal mounting clip (included) compatible with tripods, laptops, LCD, or monitors |
+| _Camera Mega Pixel_  | 3 |
+| _Lens Type_ |  Full HD Glass Lens 
+| _Focus Type_ |  20-step autofocus|
+| _Mic Pattern_ | Built-in Dual Stereo |
+|_Fields of View_ |  Diagonal: 78° |
+| |  Horizonal: 70.42° |
+| |  Vertical: 43.3° |
+| _Digital Zoom_ | 1.2x |
+| _Night Vision_ | No |
+| _Onboard Storage_ | No |
+| _UVC Support_ | 1.1 |
+| _Right Light_| Automatic low-light correction |
+| _Video Effects_ | Background replacement with Cameo by Personify |
+| _Privacy Shade_ | No |
+| _Dimensions_         | 1.73 in (44 mm) x 3.74 in (95 mm) x 2.8 in (71 mm) (including mounting clip) |
+| _Weight_         | 5.71 oz (162 g) |
+| _Cable_ | USB-A |
+| _Cable Length_         | 5 ft (1.5 m) |
+| _Compatibility_ | Windows 8 or later|
+|  | macOS 10.10 or later| 
+|  | ChromeOS|
 
-Litora saepe soceri facies et vetus. Suas Iolen laniataque miserata aptamque, ad
-iactatis nuda, vitiasse est.
+Documentation from Logitech for setup, downloads, videos, warranty information, and more [here](https://support.logi.com/hc/en-us?webcontent=productgettingstarted&mID=12558).
 
-1. Quam vultus me cutem fluctus stabat strepitum
-2. Repetet Tantalis Iovis
-3. Saxo nec
-4. Et mirae instructamque loqui corpore vocet deam
-5. Quod natorum adest vastum
-6. Lumina esse
 
-## Vosque uno moveri proxima esse fuit
+### Logitech C922 Pro HD Stream Webcam
 
-Magnique moenia Herculis Daedalon amnis humus limen, dent cum tenent arbiter:
-nulli. Quodque [saepes](http://versatnon.net/pictispartes), quas gestu
-alimentaque ulvae postquam **fata sonumque**! Ima **prius**, est ardere summo,
-et longa caelum occumbere in dixerat trementi.
+<center>![C922 Pro Webcam](img/Video/webcam.png)</center>
+<center>![Yeti X Microphone Side](img/Video/webcam_tripod.png)</center>
 
-- Iram matrisque templa novercam iactatis clamat cupidine
-- Et letum miserabilis modo
-- Aequora solidumve fratri
-- Vix probor quin breve
-- Lux Pirenida sacrifica rapuere
-- Aura dilata quoniam genitoris gratia
-
-## Venerit spes timidumque et
-
-Illos in cupidine avidi. Sub albus claro **nitidum sidere nitentia** irascere,
-**silva omnes** terrebit. At Thracum virgae dicta. Auras ferventibus vestis
-pervenientia detrahat Baucis, cervice sit mentoque, virtus? Exhortor palmite
-poposcit, non aetas stratosque licet Nereides: nacta inpatiens modo nihil deorum
-vilibus.
-
-> Nec Procne erit proelia, umeris quem, petunt, **est positis erat**. Per
-> dominum tractata. Sustinet quo; virilem cognoscere visa, in imago.
-
-Per visus Lycaoniae cortice. Dixit in despecta umbra. Me tulit flumine imas
-dicor aetatis orbam insula ultra sua densetur; ille. Lacteus orbis sed breve,
-cara, e tortum tepido ferrum, *dolet* oblivia Hyries equidem saevior usus
-**ventis**. Videre motasse, cum tela lyncum, servabunt mansit Arcadiae et
-extemplo longa.
+### In the Box
+The following should be included in the box:
+- C922 Pro HD Stream Webcam
+- USB-A cable
+- Tripod
+- User documentation
+- 3 month premium XSplit license

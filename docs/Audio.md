@@ -1,64 +1,43 @@
-# Constitit tabellae mihi prohibentque novum ineo gravi
+# Logitech G Yeti X Microphone
 
-## Fontis et ramos
+## Microphone and Performance Specifications
 
-Lorem markdownum situsque ut ligari voluptas dummodo moras fata vela lecti
-fecere parentis saxea. Primordia quia timentem suadent Heliades, Tonantis aves
-nunc tenditur. Latuere volenti solita et inprudens feras. Vidi Lichan at Aeson
-et **lapis reluxit**. Viri medio tamen thalami tinguet, clausas, in ambit mille,
-ego invadunt Dauno illi!
 
-    var port = codec - 85 - hertz;
-    if (cc == log - parse_dv) {
-        output = systemMask.address(syn_ipx, winsockUndoLaser);
-        cpm += 3;
-    } else {
-        parameter = olap_type_browser;
-        digitalPaper = add(ppm_bot, cloud_minisite_networking) +
-                peripheral_quad_radcab;
-        passiveVersion(motion_box_address, halftoneProgram, icfVideo);
-    }
-    var spider_toslink = 4 - rw + hardeningBatchBoolean + 973276;
+| _Specification_ | Details  |
+|--------------------------|-------------------------------|
+| _Polar Patterns_| Cardioid, Omnidirectional, Bidirectional, Stereo  |
+| _Mounting_ | Removable desktop stand (included), can be mounted to boom arm |
+| _Consumption_         | 62 mA - 203 mA    |
+| _Capsules_         | 4x 0.55 in (14 mm) condenser capsules    |
+| _Frequency Response_ | 20 Hz - 20 kHz |
+| _Dimensions_ | 4.33 in (11 cm) x 4.80 in (12.2 cm) x 11.38 in (28.9 cm) |
+| _Weight_          | With stand:  2.8 lbs (1.28 kg) |
+|               | Microphone only: 1.14 lbs (.519 kg) |
+| _Compatibility_         | Windows 10 or later   |
+|                          | macOS 10.14 or later  |
+| _Cable_          | USB 1.1/2.0/3.0 |
 
-## Illa inter humana et voverat quam qua
+## Headphone Amplifier Specifications
 
-Litora saepe soceri facies et vetus. Suas Iolen laniataque miserata aptamque, ad
-iactatis nuda, vitiasse est.
+| _Specification_ | Details  |
+|--------------------------|-------------------------------|
+| _Impedance_                | 13 Ohms min, 16 Ohms typical  |
+| _Power Output (RMS)_     | 72 mW per channel |
+| _Frequency Response_       | 20 Hz - 20 kHz |
+| _Signal to Noise_             | 100 dB |
 
-1. Quam vultus me cutem fluctus stabat strepitum
-2. Repetet Tantalis Iovis
-3. Saxo nec
-4. Et mirae instructamque loqui corpore vocet deam
-5. Quod natorum adest vastum
-6. Lumina esse
+Documentation from Logitech for setup, downloads, videos, warranty information, and more [here](https://support.logi.com/hc/en-us/articles/13171658546583-Getting-Started-Yeti-X).
 
-## Vosque uno moveri proxima esse fuit
 
-Magnique moenia Herculis Daedalon amnis humus limen, dent cum tenent arbiter:
-nulli. Quodque [saepes](http://versatnon.net/pictispartes), quas gestu
-alimentaque ulvae postquam **fata sonumque**! Ima **prius**, est ardere summo,
-et longa caelum occumbere in dixerat trementi.
+### Logitech G Yeti X
 
-- Iram matrisque templa novercam iactatis clamat cupidine
-- Et letum miserabilis modo
-- Aequora solidumve fratri
-- Vix probor quin breve
-- Lux Pirenida sacrifica rapuere
-- Aura dilata quoniam genitoris gratia
+<center>![Yeti X Microphone Front](img/Audio/mic_front.png)</center>
+<center>![Yeti X Microphone Side](img/Audio/mic_side.png)</center>
 
-## Venerit spes timidumque et
 
-Illos in cupidine avidi. Sub albus claro **nitidum sidere nitentia** irascere,
-**silva omnes** terrebit. At Thracum virgae dicta. Auras ferventibus vestis
-pervenientia detrahat Baucis, cervice sit mentoque, virtus? Exhortor palmite
-poposcit, non aetas stratosque licet Nereides: nacta inpatiens modo nihil deorum
-vilibus.
-
-> Nec Procne erit proelia, umeris quem, petunt, **est positis erat**. Per
-> dominum tractata. Sustinet quo; virilem cognoscere visa, in imago.
-
-Per visus Lycaoniae cortice. Dixit in despecta umbra. Me tulit flumine imas
-dicor aetatis orbam insula ultra sua densetur; ille. Lacteus orbis sed breve,
-cara, e tortum tepido ferrum, *dolet* oblivia Hyries equidem saevior usus
-**ventis**. Videre motasse, cum tela lyncum, servabunt mansit Arcadiae et
-extemplo longa.
+### In the Box
+The following should be included in the box:
+- Yeti X microphone
+- Desktop stand
+- USB cable
+- User documentation
