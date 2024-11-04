@@ -1,7 +1,11 @@
 # Logitech G Yeti X Microphone
 
-## Microphone and Performance Specifications
+<center>![Yeti X Microphone Front](img/Audio/mic_front.png)</center>
+<center>![Yeti X Microphone Side](img/Audio/mic_side.png)</center>
 
+## Specifications
+
+### Performance Specifications
 
 | _Specification_ | Details  |
 |--------------------------|-------------------------------|
@@ -17,7 +21,7 @@
 |                          | macOS 10.14 or later  |
 | _Cable_          | USB 1.1/2.0/3.0 |
 
-## Headphone Amplifier Specifications
+### Headphone Amplifier Specifications
 
 | _Specification_ | Details  |
 |--------------------------|-------------------------------|
@@ -28,16 +32,19 @@
 
 Documentation from Logitech for setup, downloads, videos, warranty information, and more [here](https://support.logi.com/hc/en-us/articles/13171658546583-Getting-Started-Yeti-X).
 
-
-### Logitech G Yeti X
-
-<center>![Yeti X Microphone Front](img/Audio/mic_front.png)</center>
-<center>![Yeti X Microphone Side](img/Audio/mic_side.png)</center>
-
-
 ### In the Box
 The following should be included in the box:
+
 - Yeti X microphone
 - Desktop stand
 - USB cable
 - User documentation
+
+## Hardware Setup
+
+1. Open your Blue Yeti X Microphone.
+2. Plug it in.
+
+## Software Setup
+
+1. Coming soon

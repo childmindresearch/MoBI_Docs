@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://kimit0310.github.io/MoBI_Docs/EyeTracking_Tabletop/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Tabletop EyeTracking - MoBI Setup Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Tabletop EyeTracking";
+        var mkdocs_page_input_path = "EyeTracking_Tabletop.md";
+        var mkdocs_page_url = "/MoBI_Docs/EyeTracking_Tabletop/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> MoBI Setup Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../about/">About</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../computing/">Computing</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../EEG/">EEG</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../EyeTracking_Wearable/">Wearable EyeTracking</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Tabletop EyeTracking</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#specifications">Specifications</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hardware-setup">Hardware Setup</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#out-of-box-setup-for-eyelogic-eye-tracker">Out of Box Setup for EyeLogic Eye Tracker</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#equipment">Equipment</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#mount-eye-tracker-onto-screen">Mount Eye Tracker onto Screen</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#to-perform-test-recording">To perform test recording</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#a-note-about-the-bounding-box">A note about the bounding box:</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#software-setup">Software Setup</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#labrecoder-setup">LabRecoder Setup:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#eyelogic-server-setup">EyeLogic Server Setup:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#eyelogic-lsl-plugin-setup">EyeLogic LSL Plugin Setup:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#eyelogic-lite-calibration">EyeLogic Lite Calibration:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#eyelogic-sdk-setup">EyeLogic SDK Setup:</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Physiology/">Physiology</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Audio/">Audio</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Video/">Video</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../MotionCapture/">Motion Capture</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../3D/">3D Scanning</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Cogpsych/">Cogpsych</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">MoBI Setup Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Tabletop EyeTracking</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="tabletop-eye-tracker-lite-by-eyelogic">Tabletop Eye tracker: Lite by EyeLogic</h1>
+<p><center><img alt="eyelogic" src="../img/EyeTracking_Tabletop/8.png" /></center></p>
+<h2 id="specifications">Specifications</h2>
+<table>
+<thead>
+<tr>
+<th><em>Specification</em></th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Sampling Rate</em></td>
+<td>60 Hz/120 Hz</td>
+</tr>
+<tr>
+<td><em>Gaze Accuracy</em></td>
+<td>&lt; 0.50 (typical)</td>
+</tr>
+<tr>
+<td><em>Gaze Spatial Resolution</em></td>
+<td>&lt; 0.10 (typical)</td>
+</tr>
+<tr>
+<td><em>Operational Distance</em></td>
+<td>50 - 85 cm</td>
+</tr>
+<tr>
+<td><em>Tracking Area</em></td>
+<td>Width: 30 cm / height: 20 cm (@ 60 cm)</td>
+</tr>
+<tr>
+<td><em>PC Interface</em></td>
+<td>USB 3</td>
+</tr>
+<tr>
+<td><em>Blink Recovery Time</em></td>
+<td>8 ms (@120 Hz)</td>
+</tr>
+<tr>
+<td><em>System Latency</em></td>
+<td>16 ms (@120 Hz)</td>
+</tr>
+<tr>
+<td><em>Screen Size</em></td>
+<td>Up to 25 inch</td>
+</tr>
+<tr>
+<td><em>Technology</em></td>
+<td>dark pupil, non-invasive video based</td>
+</tr>
+<tr>
+<td><em>Operating System</em></td>
+<td>Windows 10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="hardware-setup">Hardware Setup</h2>
+<h3 id="out-of-box-setup-for-eyelogic-eye-tracker">Out of Box Setup for EyeLogic Eye Tracker</h3>
+<h4 id="equipment">Equipment</h4>
+<p>The following equipment should be included in the Eyelogic Lite hardware: </p>
+<ul>
+<li>Eye Tracker</li>
+<li>Metal Plates (to attach eye tracker to screen)</li>
+<li>Cleaning wipes</li>
+</ul>
+<p><center><img alt="equipment" src="../img/EyeTracking_Tabletop/9.jpg" /></center></p>
+<h4 id="mount-eye-tracker-onto-screen">Mount Eye Tracker onto Screen</h4>
+<p>You can mount the eye tracker onto any screen between 10’’ and 25’’. Remove the adhesive backing from one of the included magnetic metal plates and affix it to the bottom of a display monitor – typically, the participant stimulus display monitor. Allow the adhesive to set for at least twelve hours before magnetically attaching the eye tracker to the magnetic metal plate.</p>
+<h3 id="to-perform-test-recording">To perform test recording</h3>
+<p>This eyetracker is plug and play. Once you have the EyeLogic Server set up (see <a href="/MoBI_Docs/docs/eyetracking_tabletop_software.md"><strong>Tabletop Eye Tracker Software Setup Guide</strong></a>) you can plug this machine into the computer, calibrate, and you are ready to go! </p>
+<p>The instructions on how to perform a test recording can be found in the (see <a href="/MoBI_Docs/docs/eyetracking_tabletop_software.md"><strong>Tabletop Eye Tracker Software Setup Guide</strong></a>), but to summarize below: </p>
+<ol>
+<li>Open the “eyelogiclsl” shortcut on the Desktop. </li>
+<li>Type the following at the command line:<blockquote>
+<p>startstream</p>
+</blockquote>
+</li>
+<li>Then type this: <blockquote>
+<p>calibrate</p>
+</blockquote>
+</li>
+<li>You will have the option to choose a number for calibration points (1,2,5,9). Select the number you would like. </li>
+<li>Once you pass calibration, you are ready to go! </li>
+</ol>
+<h4 id="a-note-about-the-bounding-box">A note about the bounding box:</h4>
+<p>The bounding box for the Eyelogic Lite is 50cm-85cm. For optimal data collection, please place the participant at around 60cm from the monitor. Please tell the participant to sit down and get comfortable and instruct the participant not to move. While the eye-tracker is more forgiving than brain imaging when it comes to the participant moving, it is still best if the participant stays as still as possible. </p>
+<h2 id="software-setup">Software Setup</h2>
+<h3 id="labrecoder-setup">LabRecoder Setup:</h3>
+<p>Please refer to LabRecorder Setup from the LSL and Computer Setup Guide.</p>
+<h3 id="eyelogic-server-setup">EyeLogic Server Setup:</h3>
+<p>This is the required driver package to run EyeLogic devices. It is recommended to always update this software to the newest available version. Download</p>
+<ol>
+<li>Install EyeLogic Server according to the installer instructions</li>
+<li>
+<p>Once the installation is complete, start the EyeLogic Server either by double clicking the shortcut on the Desktop or finding it from the Start menu. 
+<center><img alt="EyeLogic Server logo" src="../img/EyeTracking_Tabletop/1.png" /></center> (Note: Nothing will pop-up, it will just silently run in the background).
+<center><img alt="EyeLogic Server logo" src="../img/EyeTracking_Tabletop/2.png" /></center> (Click on this icon to see the EyeLogic server panel)</p>
+</li>
+<li>
+<p><center><img alt="EyeLogic Server logo" src="../img/EyeTracking_Tabletop/3.png" /></center> Toggle Tracking to on. This will show two white circles in the black screen next to the toggle if the eyes are found by the device. </p>
+</li>
+<li>Calibration can also be done in the calibration tab; however, if you would like to use LSL then you need to do calibration when you start the LSL stream. </li>
+</ol>
+<h3 id="eyelogic-lsl-plugin-setup">EyeLogic LSL Plugin Setup:</h3>
+<p>The EyeLogic integration into LSL includes a client which provides an LSL stream containing data from EyeLogic devices. <a href="https://www.eyelogicsolutions.com/download/EyeLogic_LSL.zip">Download</a>. </p>
+<ol>
+<li>Once EyeLogic Server is up and running with the tracking option on, run the <code>eyelogiclsl</code> (Shortcut can be found on Desktop - with an MSN icon.)</li>
+<li>
+<p>EyeLogic LSL console will popup. Type <code>help</code> for a list of available commands.
+<center><img alt="eyelogic lsl shortcut" src="../img/EyeTracking_Tabletop/4.png" /></center>
+(Note: if the second line does not read: LSL client connected, LSL Server may be off)</p>
+</li>
+<li>
+<p>To start the LSL stream, type <code>startstream</code> and type your sampling rate (60 / 120). </p>
+</li>
+<li>Once the stream has initiated, it should also show up on the LabRecorder’s list of Streams</li>
+</ol>
+<p><center><img alt="LabRecoder" src="../img/EyeTracking_Tabletop/5.png" /></center></p>
+<h3 id="eyelogic-lite-calibration">EyeLogic Lite Calibration:</h3>
+<ol>
+<li>Calibration must be done for accurate eye tracking. Calibration function can be found both in the EyeLogic Server and in the EyeLogic LSL Plugin CLI. </li>
+</ol>
+<p><center><img alt="eyelogic lsl shortcut" src="../img/EyeTracking_Tabletop/6.png" /></center></p>
+<p><center><img alt="calibration" src="../img/EyeTracking_Tabletop/7.png" /></center></p>
+<h3 id="eyelogic-sdk-setup">EyeLogic SDK Setup:</h3>
+<p>The standard development kit is optional and only needed for users who want to access the EyeLogic device via the EyeLogic API. The SDK supports programming languages C++, C, Python, C# and Matlab. After downloading, unzip the file and read the contained pdf documentation to start using the SDK. <a href="https://www.eyelogicsolutions.com/download/EyeLogic_SDK.zip">Download</a>, <a href="https://www.eyelogicsolutions.com/download/doc_sdk_py">Python_SDK_Documentation</a></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../EyeTracking_Wearable/" class="btn btn-neutral float-left" title="Wearable EyeTracking"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Physiology/" class="btn btn-neutral float-right" title="Physiology">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../EyeTracking_Wearable/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Physiology/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-# Wearable Eye Tracker
+# Wearable Eye tracker: Neon by Pupil Labs
 
 ## Specifications
 
@@ -31,11 +31,11 @@ Documentation from Pupil Labs spanning the following topics: Hardware, Data Coll
 
 ### Adult frames: Just Act Natural
 
-<center>![Adult Frames](img/EyeTracking/1.png)</center>
+<center>![Adult Frames](img/EyeTracking_Wearable/1.png)</center>
 
 ### Child frames: All Fun and Games (Ages 2 - 8)
 
-<center>![Child Frames](img/EyeTracking/2.png)</center>
+<center>![Child Frames](img/EyeTracking_Wearable/2.png)</center>
 
 ## Hardware Setup
 
@@ -50,7 +50,7 @@ The following equipment should be included in the Pupil Labs hardware:
  - Child frames 
  - Lens kit 
 
-<center>![Boxes](img/EyeTracking/3.png)</center>
+<center>![Boxes](img/EyeTracking_Wearable/3.png)</center>
 
 You will also need an Anker dongle [Amazon link](https://www.amazon.com/Anker-PowerExpand-Ethernet-Delivery-MacBook/dp/B08C9HZ5YT/). This is not included with Pupil Lab Neon and has been ordered separately.
 
@@ -74,8 +74,66 @@ Please follow steps 1 - 9 for the Out of Box instructions to setup the hardware 
 5. Plug glasses into the phone.
 
     - First time you plug in glasses to the phone, it will ask you to allow the Neon Companion to access the Neon Sensor Module and Neon Scene Camera v1. Check the Always open… box, and press OK. <br>
-    <img src="../img/EyeTracking/5.png" width='300px'>
-    <img src="../img/EyeTracking/6.png" width='300px'>
+    <img src="../img/EyeTracking_Wearable/5.png" width='300px'>
+    <img src="../img/EyeTracking_Wearable/6.png" width='300px'>
+
+6. In the Neon Companion App, there are three “tabs” at the bottom.
+
+    <center><img src="../img/EyeTracking_Wearable/7.png" width='300px'></center>
+
+    - <span style="color:red;">⭘ (red)</span> - Allows you to view recordings.
+    - <span style="color:blue;">⭘ (blue)</span> - Recording screen.
+    - <span style="color:green;">⭘ (green)</span> - Live Preview. This shows you the view from the glasses.
+
+7. You need to set-up different “Wearers” on the account. Make sure you are in the recording tab (see #6; the blue circle in the image). In the recording tab, go to the bottom left side and click on “Wearer”.
+    - Create a wearer called “tester” to run a test recording.
+    - Click “Switch Wearer” to create different wearer profiles. Then click the “+ New Wearer” bottom on the bottom right.
+
+8. There needs to be 16 different profiles to accommodate users and participants with varying inter eye distance. Label profiles with just a single number, 50-65. For each profile, click “Adjust” under “Inter Eye Distance” and slide accordingly for the right profile.
+
+9. To switch between wearer profiles, click “Switch Wearer” and then click on the profile you want. Click “Activate” to switch to that profile.
+
+**The hardware is all set-up and ready to start recording!**
+
+## Software Setup
+
+### Out of Box Setup for Neon by Pupil Labs
+
+#### Equipment
+
+The following equipment should be included in the Pupil Labs hardware: 
+
+ - Phone to run the wearable eye tracker 
+ - Adult frames (that has a space to store the Anker phone)
+ - Child frames 
+ - Lens kit 
+
+<center>![Boxes](img/EyeTracking_Wearable/3.png)</center>
+
+You will also need an Anker dongle [Amazon link](https://www.amazon.com/Anker-PowerExpand-Ethernet-Delivery-MacBook/dp/B08C9HZ5YT/). This is not included with Pupil Lab Neon and has been ordered separately.
+
+### Setup Steps
+
+Please follow steps 1 - 9 for the Out of Box instructions to setup the hardware (the wearable glasses)
+
+1. Open the Adult frames and pull out the phone. Turn on the phone.
+    - Put a screen protector and a case [link to case] on the phone. Follow the instructions per the screen protection kit: [link to screen protector].
+    - Login for phone: 0000 (press 4 times and then press enter - this is not like iPhone where it will go automatically).
+    - Use the following Google Account to set-up the phone. This is the Google account used from Neon Companion App and Pupil Labs Cloud:
+        - User:
+        - PW: 
+
+2. Open the Neon Pamphlet and follow the instructions, which are also written in steps 3 - 4.
+
+3. Install Neon Companion App. Open Google Play Store and search “Neon Companion”.
+
+4. Open Neon Companion App.
+
+5. Plug glasses into the phone.
+
+    - First time you plug in glasses to the phone, it will ask you to allow the Neon Companion to access the Neon Sensor Module and Neon Scene Camera v1. Check the Always open… box, and press OK. <br>
+    <img src="../img/EyeTracking_Wearable/5.png" width='300px'>
+    <img src="../img/EyeTracking_Wearable/6.png" width='300px'>
 
 6. In the Neon Companion App, there are three “tabs” at the bottom.
     - <span style="color:red;">⭘ (red)</span> - Allows you to view recordings.
@@ -91,4 +149,3 @@ Please follow steps 1 - 9 for the Out of Box instructions to setup the hardware 
 9. To switch between wearer profiles, click “Switch Wearer” and then click on the profile you want. Click “Activate” to switch to that profile.
 
 **The hardware is all set-up and ready to start recording!**
-

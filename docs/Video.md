@@ -1,8 +1,11 @@
 # Logitech C922 Pro HD Stream Webcam
 
+[C922 Pro HD Stream Webcam](https://www.logitech.com/en-us/products/webcams/c922-pro-stream-webcam.960-001087.html)
+
+<center>![C922 Pro Webcam](img/Video/webcam.png)</center>
+<center>![Yeti X Microphone Side](img/Video/webcam_tripod.png)</center>
 
 ## Specifications
-
 
 | _Specification_ | Details  |
 |------------|-----------|
@@ -32,16 +35,36 @@
 
 Documentation from Logitech for setup, downloads, videos, warranty information, and more [here](https://support.logi.com/hc/en-us?webcontent=productgettingstarted&mID=12558).
 
-
-### Logitech C922 Pro HD Stream Webcam
-
-<center>![C922 Pro Webcam](img/Video/webcam.png)</center>
-<center>![Yeti X Microphone Side](img/Video/webcam_tripod.png)</center>
-
 ### In the Box
+
 The following should be included in the box:
+
 - C922 Pro HD Stream Webcam
 - USB-A cable
 - Tripod
 - User documentation
 - 3 month premium XSplit license
+
+## Hardware Setup
+
+1. Open your C922 Pro HD Stream Webcam.
+2. Plug it in.
+
+## Software Setup
+
+Open ‘Command Prompt’ and cd into the directory that contains the script “**webcam_video.py**”. 
+``` py 
+>> cd ~/Documents
+```
+
+Open LabRecorder.
+
+Run the following at the command line. You must specify a file name for the .avi file.
+
+``` py
+>> python webcam_video.py –filename name_your_file
+```
+
+Click “update” on LabRecorder and you should see the stream available.
+
+<center>![LabRecorder](img/Video/1.png)</center>

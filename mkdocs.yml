@@ -4,7 +4,8 @@ nav:
   - About: about.md
   - Computing: computing.md
   - EEG: EEG.md
-  - EyeTracking: EyeTracking.md
+  - Wearable EyeTracking: EyeTracking_Wearable.md
+  - Tabletop EyeTracking: EyeTracking_Tabletop.md
   - Physiology: Physiology.md
   - Audio: Audio.md
   - Video: Video.md
