@@ -56,7 +56,11 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../EyeTracking/">EyeTracking</a>
+                <li class="toctree-l1"><a class="reference internal" href="../EyeTracking_Wearable/">Wearable EyeTracking</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../EyeTracking_Tabletop/">Tabletop EyeTracking</a>
                 </li>
               </ul>
               <ul>
@@ -72,11 +76,13 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#specifications">Specifications</a>
         <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#logitech-c922-pro-hd-stream-webcam_1">Logitech C922 Pro HD Stream Webcam</a>
-    </li>
     <li class="toctree-l3"><a class="reference internal" href="#in-the-box">In the Box</a>
     </li>
         </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hardware-setup">Hardware Setup</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#software-setup">Software Setup</a>
     </li>
     </ul>
                 </li>
@@ -117,6 +123,9 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="logitech-c922-pro-hd-stream-webcam">Logitech C922 Pro HD Stream Webcam</h1>
+<p><a href="https://www.logitech.com/en-us/products/webcams/c922-pro-stream-webcam.960-001087.html">C922 Pro HD Stream Webcam</a></p>
+<p><center><img alt="C922 Pro Webcam" src="../img/Video/webcam.png" /></center>
+<center><img alt="Yeti X Microphone Side" src="../img/Video/webcam_tripod.png" /></center></p>
 <h2 id="specifications">Specifications</h2>
 <table>
 <thead>
@@ -221,16 +230,30 @@
 </tbody>
 </table>
 <p>Documentation from Logitech for setup, downloads, videos, warranty information, and more <a href="https://support.logi.com/hc/en-us?webcontent=productgettingstarted&amp;mID=12558">here</a>.</p>
-<h3 id="logitech-c922-pro-hd-stream-webcam_1">Logitech C922 Pro HD Stream Webcam</h3>
-<p><center><img alt="C922 Pro Webcam" src="../img/Video/webcam.png" /></center>
-<center><img alt="Yeti X Microphone Side" src="../img/Video/webcam_tripod.png" /></center></p>
 <h3 id="in-the-box">In the Box</h3>
-<p>The following should be included in the box:
-- C922 Pro HD Stream Webcam
-- USB-A cable
-- Tripod
-- User documentation
-- 3 month premium XSplit license</p>
+<p>The following should be included in the box:</p>
+<ul>
+<li>C922 Pro HD Stream Webcam</li>
+<li>USB-A cable</li>
+<li>Tripod</li>
+<li>User documentation</li>
+<li>3 month premium XSplit license</li>
+</ul>
+<h2 id="hardware-setup">Hardware Setup</h2>
+<ol>
+<li>Open your C922 Pro HD Stream Webcam.</li>
+<li>Plug it in.</li>
+</ol>
+<h2 id="software-setup">Software Setup</h2>
+<p>Open ‘Command Prompt’ and cd into the directory that contains the script “<strong>webcam_video.py</strong>”. </p>
+<pre><code class="language-py">&gt;&gt; cd ~/Documents
+</code></pre>
+<p>Open LabRecorder.</p>
+<p>Run the following at the command line. You must specify a file name for the .avi file.</p>
+<pre><code class="language-py">&gt;&gt; python webcam_video.py –filename name_your_file
+</code></pre>
+<p>Click “update” on LabRecorder and you should see the stream available.</p>
+<p><center><img alt="LabRecorder" src="../img/Video/1.png" /></center></p>
               
             </div>
           </div><footer>
