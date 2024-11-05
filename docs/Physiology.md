@@ -153,7 +153,7 @@
 | _Electrode Number_ | 2x electrodes |
 | _Electrode Connection Type_ | Stud connectors (compatible with disposable electodes) |
 | _Reference Electrode_ | Required |
-| _Electrode Placement_ | 2 measuring electrodes must be placed along the muscle and the reference electrode must be placed in a region of low muscular activity (see user manual) |
+| _Electrode Placement_ | 2 measuring electrodes must be placed along the muscle <br>and the reference electrode must be placed in a region of<br> low muscular activity (see user manual) |
 | _Cable Length_ | 100 cm + 5 cm for each electrode cable |
 | _OpenSignals Add-On_ | Electromyography (EMG) Analysis |
 | _User Manual_ | [PDF](https://support.pluxbiosignals.com/wp-content/uploads/2021/10/biosignalsplux-Electromyography-EMG-User-Manual-1.pdf) |

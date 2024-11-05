@@ -1,64 +1,107 @@
-# Constitit tabellae mihi prohibentque novum ineo gravi
+# Zed 2i
 
-## Fontis et ramos
+<center>![Zed 2i Device](img/MoCap/zed.jpg)</center>
 
-Lorem markdownum situsque ut ligari voluptas dummodo moras fata vela lecti
-fecere parentis saxea. Primordia quia timentem suadent Heliades, Tonantis aves
-nunc tenditur. Latuere volenti solita et inprudens feras. Vidi Lichan at Aeson
-et **lapis reluxit**. Viri medio tamen thalami tinguet, clausas, in ambit mille,
-ego invadunt Dauno illi!
+## Specifications
 
-    var port = codec - 85 - hertz;
-    if (cc == log - parse_dv) {
-        output = systemMask.address(syn_ipx, winsockUndoLaser);
-        cpm += 3;
-    } else {
-        parameter = olap_type_browser;
-        digitalPaper = add(ppm_bot, cloud_minisite_networking) +
-                peripheral_quad_radcab;
-        passiveVersion(motion_box_address, halftoneProgram, icfVideo);
-    }
-    var spider_toslink = 4 - rw + hardeningBatchBoolean + 973276;
+| Specification      | Details               |
+| ------------------ | --------------------- |
+| Device Type        | Motion Tracking Camera|
+| Resolution         | 1920x1080             |
+| Frame Rate         | 30 FPS                |
+| Connectivity       | USB 3.0               |
+| Power Requirement  | 5V                    |
+| Dimensions         | 150mm x 50mm x 40mm   |
 
-## Illa inter humana et voverat quam qua
+### In the Box
+The following should be included in the box:
 
-Litora saepe soceri facies et vetus. Suas Iolen laniataque miserata aptamque, ad
-iactatis nuda, vitiasse est.
+- Yeti X microphone
+- Desktop stand
+- USB cable
+- User documentation
 
-1. Quam vultus me cutem fluctus stabat strepitum
-2. Repetet Tantalis Iovis
-3. Saxo nec
-4. Et mirae instructamque loqui corpore vocet deam
-5. Quod natorum adest vastum
-6. Lumina esse
+## Hardware Setup
 
-## Vosque uno moveri proxima esse fuit
+Follow these steps to set up the hardware:
 
-Magnique moenia Herculis Daedalon amnis humus limen, dent cum tenent arbiter:
-nulli. Quodque [saepes](http://versatnon.net/pictispartes), quas gestu
-alimentaque ulvae postquam **fata sonumque**! Ima **prius**, est ardere summo,
-et longa caelum occumbere in dixerat trementi.
+1. Unbox the Zed 2i and check all components.
+2. Connect the device to a compatible power source.
+3. Attach the USB cable to connect to the main computer.
+4. Position the device at the desired location for optimal tracking.
+5. Perform a calibration if necessary.
 
-- Iram matrisque templa novercam iactatis clamat cupidine
-- Et letum miserabilis modo
-- Aequora solidumve fratri
-- Vix probor quin breve
-- Lux Pirenida sacrifica rapuere
-- Aura dilata quoniam genitoris gratia
+## Software Setup
 
-## Venerit spes timidumque et
+### To Set Up the Software for the Zed 2i
 
-Illos in cupidine avidi. Sub albus claro **nitidum sidere nitentia** irascere,
-**silva omnes** terrebit. At Thracum virgae dicta. Auras ferventibus vestis
-pervenientia detrahat Baucis, cervice sit mentoque, virtus? Exhortor palmite
-poposcit, non aetas stratosque licet Nereides: nacta inpatiens modo nihil deorum
-vilibus.
+#### Download ZED SDK
 
-> Nec Procne erit proelia, umeris quem, petunt, **est positis erat**. Per
-> dominum tractata. Sustinet quo; virilem cognoscere visa, in imago.
+- Run the installer
+- Accept the terms
+- Download and install CUDA if prompted
+- Restart your computer
 
-Per visus Lycaoniae cortice. Dixit in despecta umbra. Me tulit flumine imas
-dicor aetatis orbam insula ultra sua densetur; ille. Lacteus orbis sed breve,
-cara, e tortum tepido ferrum, *dolet* oblivia Hyries equidem saevior usus
-**ventis**. Videre motasse, cum tela lyncum, servabunt mansit Arcadiae et
-extemplo longa.
+#### Grant Permission to Write to the `zed_sdk` Folder
+
+- Navigate to the ZED SDK folder in `C:\Program Files (x86)` in File Explorer
+- Right-click on the folder → select **Properties** → go to the **Security** tab → click **Edit**
+- Select the correct user and tick the box next to **Full control** under **Allow**
+- Click **Apply** and **OK**, then restart your terminal
+
+### Install ZED Python API
+
+#### Create and Activate Environment
+```bash
+conda create -n zed_api_env python=3.11
+conda activate zed_api_env
+```
+
+#### Download Dependencies
+```bash
+pip install pyopengl==3.1.6 numpy==1.26.4 cython opencv-python requests
+```
+*Note: Using pip version 24.0.*
+
+#### Run `get_python_api.py`
+```bash
+cd "C:\Program Files (x86)\ZED SDK"
+python get_python_api.py
+```
+*This should complete without errors, though it may automatically install numpy 2.0.0, which may cause issues.*
+
+#### Manual Uninstall and Reinstall of numpy (if error persists)
+
+```bash
+pip uninstall numpy==2.0.0
+pip install numpy==1.26.4
+```
+
+#### Manual Uninstall and Reinstall of `pyopengl` and `pyopengl-accelerate`
+
+- Download the following files from [this Google Drive link](https://drive.google.com/drive/folders/1mz7faVsrp0e6IKCQh8MyZh-BcCqEGPwx):
+  - `PyOpenGL-3.1.7-cp311-cp311-win_amd64.whl`
+  - `PyOpenGL_accelerate-3.1.7-cp311-cp311-win_amd64.whl`
+- Move the wheel files to the ZED SDK directory
+- Install the wheels:
+
+```bash
+cd "C:\Program Files (x86)\ZED SDK"
+pip install .\PyOpenGL-3.1.7-cp311-cp311-win_amd64.whl
+pip install .\PyOpenGL_accelerate-3.1.7-cp311-cp311-win_amd64.whl
+```
+
+#### Run `body_tracking`
+
+```bash
+cd "ZED SDK\samples\body tracking\body tracking\python"
+python body_tracking.py
+```
+
+### To Run the Edited `body_tracking` Script (Exports to Excel)
+
+- Install the necessary libraries:
+
+```bash
+pip install pandas openpyxl
+```

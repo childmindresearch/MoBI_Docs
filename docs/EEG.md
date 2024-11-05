@@ -1,64 +1,95 @@
-# Constitit tabellae mihi prohibentque novum ineo gravi
+# EEG Caps
 
-## Fontis et ramos
+## mBrainTrain Smarting Pro (High-Density Semi-Dry EEG System)
 
-Lorem markdownum situsque ut ligari voluptas dummodo moras fata vela lecti
-fecere parentis saxea. Primordia quia timentem suadent Heliades, Tonantis aves
-nunc tenditur. Latuere volenti solita et inprudens feras. Vidi Lichan at Aeson
-et **lapis reluxit**. Viri medio tamen thalami tinguet, clausas, in ambit mille,
-ego invadunt Dauno illi!
+### Specifications
 
-    var port = codec - 85 - hertz;
-    if (cc == log - parse_dv) {
-        output = systemMask.address(syn_ipx, winsockUndoLaser);
-        cpm += 3;
-    } else {
-        parameter = olap_type_browser;
-        digitalPaper = add(ppm_bot, cloud_minisite_networking) +
-                peripheral_quad_radcab;
-        passiveVersion(motion_box_address, halftoneProgram, icfVideo);
-    }
-    var spider_toslink = 4 - rw + hardeningBatchBoolean + 973276;
+| *Specifications*        | *Description*                                               |
+|-------------------------|-------------------------------------------------------------|
+| *Channels*              | 32 channels, 24 + 8 ExG                                     |
+| *Sampling Rate*         | 250 – 2000 Hz                                               |
+| *Bandwidth*             | 0-1000 Hz                                                   |
+| *Wireless*              | Bluetooth 5.0                                               |
+| *Wireless range*        | ~50 meters depending on sampling rate                       |
+| *Data transfer rate*    | 1000 Hz                                                     |
+| *Motion sensors*        | 3D head motion tracking, Gyroscope, Accelerometer, Magnetometer |
+| *Real-time Data*        | Real-time Artifact Subspace Reconstruction algorithm (ASR)  |
+| *Recording time*        | up to 12 hours                                              |
+| *Softwares*             | mBrainTrain Streamer                                        |
 
-## Illa inter humana et voverat quam qua
+![Alt text](img/EEG/image-1.png)
 
-Litora saepe soceri facies et vetus. Suas Iolen laniataque miserata aptamque, ad
-iactatis nuda, vitiasse est.
+Documentation for Smarting Pro on hardware and data collection can be found [here](https://mbraintrain.com/smarting-wireless-eeg/) 
 
-1. Quam vultus me cutem fluctus stabat strepitum
-2. Repetet Tantalis Iovis
-3. Saxo nec
-4. Et mirae instructamque loqui corpore vocet deam
-5. Quod natorum adest vastum
-6. Lumina esse
+### Hardware Setup
 
-## Vosque uno moveri proxima esse fuit
+Mounting EEG Cap:
 
-Magnique moenia Herculis Daedalon amnis humus limen, dent cum tenent arbiter:
-nulli. Quodque [saepes](http://versatnon.net/pictispartes), quas gestu
-alimentaque ulvae postquam **fata sonumque**! Ima **prius**, est ardere summo,
-et longa caelum occumbere in dixerat trementi.
+<iframe width="640" height="360"
+src="https://www.youtube.com/embed/FnQJOsagOYE">
+</iframe>
 
-- Iram matrisque templa novercam iactatis clamat cupidine
-- Et letum miserabilis modo
-- Aequora solidumve fratri
-- Vix probor quin breve
-- Lux Pirenida sacrifica rapuere
-- Aura dilata quoniam genitoris gratia
+Cleaning and Maintenance of headset:
 
-## Venerit spes timidumque et
+<iframe width="640" height="360"
+src="https://www.youtube.com/embed/_i-U01N3j7g">
+</iframe>
 
-Illos in cupidine avidi. Sub albus claro **nitidum sidere nitentia** irascere,
-**silva omnes** terrebit. At Thracum virgae dicta. Auras ferventibus vestis
-pervenientia detrahat Baucis, cervice sit mentoque, virtus? Exhortor palmite
-poposcit, non aetas stratosque licet Nereides: nacta inpatiens modo nihil deorum
-vilibus.
+### Software Setup
 
-> Nec Procne erit proelia, umeris quem, petunt, **est positis erat**. Per
-> dominum tractata. Sustinet quo; virilem cognoscere visa, in imago.
+Connectign PC to Streamer
 
-Per visus Lycaoniae cortice. Dixit in despecta umbra. Me tulit flumine imas
-dicor aetatis orbam insula ultra sua densetur; ille. Lacteus orbis sed breve,
-cara, e tortum tepido ferrum, *dolet* oblivia Hyries equidem saevior usus
-**ventis**. Videre motasse, cum tela lyncum, servabunt mansit Arcadiae et
-extemplo longa.
+<iframe width="640" height="360"
+src="https://www.youtube.com/embed/w4Qn58kp0_4">
+</iframe>
+
+EEG artifact removal with ASR
+
+<iframe width="640" height="360"
+src="https://www.youtube.com/embed/Wpq8S7PKjp4">
+</iframe>
+
+## Wearable Sensing DSI-24 (High-Density Dry EEG System)
+
+### Specifications
+
+| *Specifications*        | *Description*                                               |
+|-------------------------|-------------------------------------------------------------|
+| *Channels*              | 21 channels, 19 + 2 ExG                                     |
+| *Sampling Rate*         | 300 Hz                                                      |
+| *Bandwidth*             | 0.003 – 150 Hz                                              |
+| *Wireless*              | Bluetooth                                                   |
+| *Wireless range*        | 10 m                                                        |
+| *Internal data Storage* | up to 60 hours                                              |
+| *Recording time*        | > 24 Hours, Hot-Swappable Batteries                         |
+| *Softwares*             | DSI Streamer                                                |
+
+![Alt text](img/EEG/image.png)
+
+Documentation for DSI-24 on hardware adn data collection can be found [here](https://wearablesensing.com/dsi-24/#technicalspecs)
+
+### Hardware Setup
+
+<iframe width="640" height="360"
+src="https://www.youtube.com/embed/n59Uj_rQAjg">
+</iframe>
+
+Cleaning and Maintenance of headset:
+
+<iframe width="640" height="360"
+src="https://www.youtube.com/embed/nTn2-z9ssmU">
+</iframe>
+
+### Software Setup
+
+How to install DSI Streamer and connect to EEG Headset:
+
+<iframe width="640" height="360"
+src="https://www.youtube.com/embed/B-sn_LRXB7A">
+</iframe>
+
+How to navigate through DSI Streamer:
+
+<iframe width="640" height="360"
+src="https://www.youtube.com/embed/fwekDusaxV8">
+</iframe>

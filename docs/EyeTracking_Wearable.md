@@ -97,21 +97,6 @@ Please follow steps 1 - 9 for the Out of Box instructions to setup the hardware 
 
 ## Software Setup
 
-### Out of Box Setup for Neon by Pupil Labs
-
-#### Equipment
-
-The following equipment should be included in the Pupil Labs hardware: 
-
- - Phone to run the wearable eye tracker 
- - Adult frames (that has a space to store the Anker phone)
- - Child frames 
- - Lens kit 
-
-<center>![Boxes](img/EyeTracking_Wearable/3.png)</center>
-
-You will also need an Anker dongle [Amazon link](https://www.amazon.com/Anker-PowerExpand-Ethernet-Delivery-MacBook/dp/B08C9HZ5YT/). This is not included with Pupil Lab Neon and has been ordered separately.
-
 ### Setup Steps
 
 Please follow steps 1 - 9 for the Out of Box instructions to setup the hardware (the wearable glasses)
