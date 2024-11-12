@@ -89,48 +89,58 @@ Please follow steps 1 - 9 for the Out of Box instructions to setup the hardware 
     - Create a wearer called “tester” to run a test recording.
     - Click “Switch Wearer” to create different wearer profiles. Then click the “+ New Wearer” bottom on the bottom right.
 
+    <center><img src="../img/EyeTracking_Wearable/8.png" width='300px'><img src="../img/EyeTracking_Wearable/9.png" width='300px'></center>
+
+
 8. There needs to be 16 different profiles to accommodate users and participants with varying inter eye distance. Label profiles with just a single number, 50-65. For each profile, click “Adjust” under “Inter Eye Distance” and slide accordingly for the right profile.
 
+    <center><img src="../img/EyeTracking_Wearable/10.png" width='300px'></center>
+
+
 9. To switch between wearer profiles, click “Switch Wearer” and then click on the profile you want. Click “Activate” to switch to that profile.
+
+    <center><img src="../img/EyeTracking_Wearable/11.png" width='300px'></center>
 
 **The hardware is all set-up and ready to start recording!**
 
 ## Software Setup
 
-### Setup Steps
+### LabRecorder Setup
 
-Please follow steps 1 - 9 for the Out of Box instructions to setup the hardware (the wearable glasses)
+Please refer to LabRecorder Setup from the Computing Setup Guide.
 
-1. Open the Adult frames and pull out the phone. Turn on the phone.
-    - Put a screen protector and a case [link to case] on the phone. Follow the instructions per the screen protection kit: [link to screen protector].
-    - Login for phone: 0000 (press 4 times and then press enter - this is not like iPhone where it will go automatically).
-    - Use the following Google Account to set-up the phone. This is the Google account used from Neon Companion App and Pupil Labs Cloud:
-        - User:
-        - PW: 
 
-2. Open the Neon Pamphlet and follow the instructions, which are also written in steps 3 - 4.
+### Running LSL Relay & Streaming to LabRecorder
 
-3. Install Neon Companion App. Open Google Play Store and search “Neon Companion”.
+1. Make sure the connection from the router to the Anker dongle into the Neon Companion Device (Motorola Phone) and the Neon Glasses is secure (see picture below for reference).
 
-4. Open Neon Companion App.
+    <center><img src="../img/EyeTracking_Wearable/12.png" width='450px'></center>
 
-5. Plug glasses into the phone.
+    <span style="color:red;">⭘ (red)</span> - Ethernet Cable /  from Anker Hub to Network Router <br>
+    <span style="color:orange;">⭘ (yellow)</span> - USB-C / Power Outlet (included with Neon Glasses) to Anker Hub ('PD IN' port) <br>
+    <span style="color:blue;">⭘ (blue)</span> - USB-C / Anker Hub to Neon Companion Device <br>
+    <span style="color:green;">⭘ (green)</span> - USB-C / Neon Glasses to Anker Hub (Use the '5Gbps' port)<br>
 
-    - First time you plug in glasses to the phone, it will ask you to allow the Neon Companion to access the Neon Sensor Module and Neon Scene Camera v1. Check the Always open… box, and press OK. <br>
-    <img src="../img/EyeTracking_Wearable/5.png" width='300px'>
-    <img src="../img/EyeTracking_Wearable/6.png" width='300px'>
+2. Make sure the computer receiving the LSL stream (the computer with the LabRecorder open) is on, and connected to the same local network.
 
-6. In the Neon Companion App, there are three “tabs” at the bottom.
-    - <span style="color:red;">⭘ (red)</span> - Allows you to view recordings.
-    - <span style="color:blue;">⭘ (blue)</span> - Recording screen.
-    - <span style="color:green;">⭘ (green)</span> - Live Preview. This shows you the view from the glasses.
+    <center><img src="../img/EyeTracking_Wearable/13.png" width='300px'></center>
+    If you have the Neon glasses set-up correctly, you should see the following in Lab Recorder, even before you start running lsl. The “Neon Companion” app should show up like the following. Click “Update” if you don’t see it: 
+    <center><img src="../img/EyeTracking_Wearable/14.png" width='600px'></center>
 
-7. You need to set-up different “Wearers” on the account. Make sure you are in the recording tab (see #6; the blue circle in the image). In the recording tab, go to the bottom left side and click on “Wearer”.
-    - Create a wearer called “tester” to run a test recording.
-    - Click “Switch Wearer” to create different wearer profiles. Then click the “+ New Wearer” bottom on the bottom right.
 
-8. There needs to be 16 different profiles to accommodate users and participants with varying inter eye distance. Label profiles with just a single number, 50-65. For each profile, click “Adjust” under “Inter Eye Distance” and slide accordingly for the right profile.
+3. In the Neon Companion App, make sure to toggle “Stream over LSL” on in the app settings. From the recording menu, you can access this by clicking the gear icon in the top right corner:
 
-9. To switch between wearer profiles, click “Switch Wearer” and then click on the profile you want. Click “Activate” to switch to that profile.
+    <center><img src="../img/EyeTracking_Wearable/15.png" width='300px'></center>
 
-**The hardware is all set-up and ready to start recording!**
+
+4. If numbers 1 through 3 are finished, but the streams are still not showing up on LabRecorder, follow Step 5 of the Router Setup in the [LSL and Computer Setup documentation](https://docs.google.com/document/d/1FLUOZAXg4oIVR_nCPXVb6a00201T-sgO9WIhljO8zbk/edit?usp=sharing)
+
+### How to measure Interpupillary distance (IPD)
+
+There are different “Wearer” settings in Neon Companion that were configured in the Hardware set-up. Each participant needs a “Wearer” profile that matches their Interpupillary distance (IPD). You should measure participants IPD before you start a recording. To measure IPD:
+
+1. Have the participant sit on a chair staring straight ahead.
+
+2. Take a ruler and hold it up to their face. Align the 0 marker/end of ruler with the center of their right eye (so your left side).
+
+3. Hold the ruler across the bridge of their nose and measure the distance to the center of their other pupil. That number in cm is what you should use for the “Wearer” profile.

@@ -16,10 +16,7 @@
 ### In the Box
 The following should be included in the box:
 
-- Yeti X microphone
-- Desktop stand
-- USB cable
-- User documentation
+- 1 x ZED 2i
 
 ## Hardware Setup
 

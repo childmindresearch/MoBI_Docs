@@ -80,13 +80,11 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#software-setup">Software Setup</a>
         <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#out-of-box-setup-for-neon-by-pupil-labs_1">Out of Box Setup for Neon by Pupil Labs</a>
-        <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#equipment_1">Equipment</a>
+    <li class="toctree-l3"><a class="reference internal" href="#labrecorder-setup">LabRecorder Setup</a>
     </li>
-        </ul>
+    <li class="toctree-l3"><a class="reference internal" href="#running-lsl-relay-streaming-to-labrecorder">Running LSL Relay &amp; Streaming to LabRecorder</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#setup-steps_1">Setup Steps</a>
+    <li class="toctree-l3"><a class="reference internal" href="#how-to-measure-interpupillary-distance-ipd">How to measure Interpupillary distance (IPD)</a>
     </li>
         </ul>
     </li>
@@ -304,82 +302,58 @@
 <li>Create a wearer called “tester” to run a test recording.</li>
 <li>Click “Switch Wearer” to create different wearer profiles. Then click the “+ New Wearer” bottom on the bottom right.</li>
 </ul>
+<p><center><img src="../img/EyeTracking_Wearable/8.png" width='300px'><img src="../img/EyeTracking_Wearable/9.png" width='300px'></center></p>
 </li>
 <li>
 <p>There needs to be 16 different profiles to accommodate users and participants with varying inter eye distance. Label profiles with just a single number, 50-65. For each profile, click “Adjust” under “Inter Eye Distance” and slide accordingly for the right profile.</p>
+<p><center><img src="../img/EyeTracking_Wearable/10.png" width='300px'></center></p>
 </li>
 <li>
 <p>To switch between wearer profiles, click “Switch Wearer” and then click on the profile you want. Click “Activate” to switch to that profile.</p>
+<p><center><img src="../img/EyeTracking_Wearable/11.png" width='300px'></center></p>
 </li>
 </ol>
 <p><strong>The hardware is all set-up and ready to start recording!</strong></p>
 <h2 id="software-setup">Software Setup</h2>
-<h3 id="out-of-box-setup-for-neon-by-pupil-labs_1">Out of Box Setup for Neon by Pupil Labs</h3>
-<h4 id="equipment_1">Equipment</h4>
-<p>The following equipment should be included in the Pupil Labs hardware: </p>
-<ul>
-<li>Phone to run the wearable eye tracker </li>
-<li>Adult frames (that has a space to store the Anker phone)</li>
-<li>Child frames </li>
-<li>Lens kit </li>
-</ul>
-<p><center><img alt="Boxes" src="../img/EyeTracking_Wearable/3.png" /></center></p>
-<p>You will also need an Anker dongle <a href="https://www.amazon.com/Anker-PowerExpand-Ethernet-Delivery-MacBook/dp/B08C9HZ5YT/">Amazon link</a>. This is not included with Pupil Lab Neon and has been ordered separately.</p>
-<h3 id="setup-steps_1">Setup Steps</h3>
-<p>Please follow steps 1 - 9 for the Out of Box instructions to setup the hardware (the wearable glasses)</p>
+<h3 id="labrecorder-setup">LabRecorder Setup</h3>
+<p>Please refer to LabRecorder Setup from the Computing Setup Guide.</p>
+<h3 id="running-lsl-relay-streaming-to-labrecorder">Running LSL Relay &amp; Streaming to LabRecorder</h3>
 <ol>
 <li>
-<p>Open the Adult frames and pull out the phone. Turn on the phone.</p>
-<ul>
-<li>Put a screen protector and a case [link to case] on the phone. Follow the instructions per the screen protection kit: [link to screen protector].</li>
-<li>Login for phone: 0000 (press 4 times and then press enter - this is not like iPhone where it will go automatically).</li>
-<li>Use the following Google Account to set-up the phone. This is the Google account used from Neon Companion App and Pupil Labs Cloud:<ul>
-<li>User:</li>
-<li>PW: </li>
-</ul>
-</li>
-</ul>
+<p>Make sure the connection from the router to the Anker dongle into the Neon Companion Device (Motorola Phone) and the Neon Glasses is secure (see picture below for reference).</p>
+<p><center><img src="../img/EyeTracking_Wearable/12.png" width='450px'></center></p>
+<p><span style="color:red;">⭘ (red)</span> - Ethernet Cable /  from Anker Hub to Network Router <br>
+<span style="color:orange;">⭘ (yellow)</span> - USB-C / Power Outlet (included with Neon Glasses) to Anker Hub ('PD IN' port) <br>
+<span style="color:blue;">⭘ (blue)</span> - USB-C / Anker Hub to Neon Companion Device <br>
+<span style="color:green;">⭘ (green)</span> - USB-C / Neon Glasses to Anker Hub (Use the '5Gbps' port)<br></p>
 </li>
 <li>
-<p>Open the Neon Pamphlet and follow the instructions, which are also written in steps 3 - 4.</p>
+<p>Make sure the computer receiving the LSL stream (the computer with the LabRecorder open) is on, and connected to the same local network.</p>
+<p><center><img src="../img/EyeTracking_Wearable/13.png" width='300px'></center>
+If you have the Neon glasses set-up correctly, you should see the following in Lab Recorder, even before you start running lsl. The “Neon Companion” app should show up like the following. Click “Update” if you don’t see it: 
+<center><img src="../img/EyeTracking_Wearable/14.png" width='600px'></center></p>
 </li>
 <li>
-<p>Install Neon Companion App. Open Google Play Store and search “Neon Companion”.</p>
+<p>In the Neon Companion App, make sure to toggle “Stream over LSL” on in the app settings. From the recording menu, you can access this by clicking the gear icon in the top right corner:</p>
+<p><center><img src="../img/EyeTracking_Wearable/15.png" width='300px'></center></p>
 </li>
 <li>
-<p>Open Neon Companion App.</p>
-</li>
-<li>
-<p>Plug glasses into the phone.</p>
-<ul>
-<li>First time you plug in glasses to the phone, it will ask you to allow the Neon Companion to access the Neon Sensor Module and Neon Scene Camera v1. Check the Always open… box, and press OK. <br>
-<img src="../img/EyeTracking_Wearable/5.png" width='300px'>
-<img src="../img/EyeTracking_Wearable/6.png" width='300px'></li>
-</ul>
-</li>
-<li>
-<p>In the Neon Companion App, there are three “tabs” at the bottom.</p>
-<ul>
-<li><span style="color:red;">⭘ (red)</span> - Allows you to view recordings.</li>
-<li><span style="color:blue;">⭘ (blue)</span> - Recording screen.</li>
-<li><span style="color:green;">⭘ (green)</span> - Live Preview. This shows you the view from the glasses.</li>
-</ul>
-</li>
-<li>
-<p>You need to set-up different “Wearers” on the account. Make sure you are in the recording tab (see #6; the blue circle in the image). In the recording tab, go to the bottom left side and click on “Wearer”.</p>
-<ul>
-<li>Create a wearer called “tester” to run a test recording.</li>
-<li>Click “Switch Wearer” to create different wearer profiles. Then click the “+ New Wearer” bottom on the bottom right.</li>
-</ul>
-</li>
-<li>
-<p>There needs to be 16 different profiles to accommodate users and participants with varying inter eye distance. Label profiles with just a single number, 50-65. For each profile, click “Adjust” under “Inter Eye Distance” and slide accordingly for the right profile.</p>
-</li>
-<li>
-<p>To switch between wearer profiles, click “Switch Wearer” and then click on the profile you want. Click “Activate” to switch to that profile.</p>
+<p>If numbers 1 through 3 are finished, but the streams are still not showing up on LabRecorder, follow Step 5 of the Router Setup in the <a href="https://docs.google.com/document/d/1FLUOZAXg4oIVR_nCPXVb6a00201T-sgO9WIhljO8zbk/edit?usp=sharing">LSL and Computer Setup documentation</a></p>
 </li>
 </ol>
-<p><strong>The hardware is all set-up and ready to start recording!</strong></p>
+<h3 id="how-to-measure-interpupillary-distance-ipd">How to measure Interpupillary distance (IPD)</h3>
+<p>There are different “Wearer” settings in Neon Companion that were configured in the Hardware set-up. Each participant needs a “Wearer” profile that matches their Interpupillary distance (IPD). You should measure participants IPD before you start a recording. To measure IPD:</p>
+<ol>
+<li>
+<p>Have the participant sit on a chair staring straight ahead.</p>
+</li>
+<li>
+<p>Take a ruler and hold it up to their face. Align the 0 marker/end of ruler with the center of their right eye (so your left side).</p>
+</li>
+<li>
+<p>Hold the ruler across the bridge of their nose and measure the distance to the center of their other pupil. That number in cm is what you should use for the “Wearer” profile.</p>
+</li>
+</ol>
               
             </div>
           </div><footer>

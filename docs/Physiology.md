@@ -40,7 +40,7 @@
 | _Integration_ | Lab Streaming Layer (LSL) |
 |               | TCP/IP |
 | _Data Format_ | TXT, H5, EDF |
-| _Accessories_ | 1x Blootooth dongle |
+| _Accessories_ | 1x Bluetooth dongle |
 |               | 1x Charger |
 |               | 1x Portable & rugged storage case |
 |               | 50x pre-gelled and disposable electrodes |

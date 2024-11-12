@@ -1,4 +1,4 @@
-# EEG Caps
+# EEG Systems
 
 ## mBrainTrain Smarting Pro (High-Density Semi-Dry EEG System)
 
@@ -20,34 +20,36 @@
 ![Alt text](img/EEG/image-1.png)
 
 Documentation for Smarting Pro on hardware and data collection can be found [here](https://mbraintrain.com/smarting-wireless-eeg/) 
+<br>
 
 ### Hardware Setup
 
-Mounting EEG Cap:
+#### **Mounting EEG Cap:**
 
 <iframe width="640" height="360"
 src="https://www.youtube.com/embed/FnQJOsagOYE">
-</iframe>
+</iframe><br>
 
-Cleaning and Maintenance of headset:
+#### **Cleaning and Maintenance of headset:**
 
 <iframe width="640" height="360"
 src="https://www.youtube.com/embed/_i-U01N3j7g">
-</iframe>
+</iframe><br>
 
 ### Software Setup
 
-Connectign PC to Streamer
+#### **Connecting PC to Streamer**
 
 <iframe width="640" height="360"
 src="https://www.youtube.com/embed/w4Qn58kp0_4">
-</iframe>
+</iframe><br>
 
-EEG artifact removal with ASR
+#### **EEG artifact removal with ASR**
 
 <iframe width="640" height="360"
 src="https://www.youtube.com/embed/Wpq8S7PKjp4">
-</iframe>
+</iframe><br>
+
 
 ## Wearable Sensing DSI-24 (High-Density Dry EEG System)
 
@@ -66,7 +68,7 @@ src="https://www.youtube.com/embed/Wpq8S7PKjp4">
 
 ![Alt text](img/EEG/image.png)
 
-Documentation for DSI-24 on hardware adn data collection can be found [here](https://wearablesensing.com/dsi-24/#technicalspecs)
+Documentation for DSI-24 on hardware adn data collection can be found [here](https://wearablesensing.com/dsi-24/#technicalspecs)<br>
 
 ### Hardware Setup
 
@@ -74,22 +76,23 @@ Documentation for DSI-24 on hardware adn data collection can be found [here](htt
 src="https://www.youtube.com/embed/n59Uj_rQAjg">
 </iframe>
 
-Cleaning and Maintenance of headset:
+#### Cleaning and Maintenance of headset:
 
 <iframe width="640" height="360"
 src="https://www.youtube.com/embed/nTn2-z9ssmU">
-</iframe>
+</iframe><br>
 
 ### Software Setup
 
-How to install DSI Streamer and connect to EEG Headset:
+#### How to install DSI Streamer and connect to EEG Headset:
 
 <iframe width="640" height="360"
 src="https://www.youtube.com/embed/B-sn_LRXB7A">
 </iframe>
 
-How to navigate through DSI Streamer:
+#### How to navigate through DSI Streamer:
 
 <iframe width="640" height="360"
 src="https://www.youtube.com/embed/fwekDusaxV8">
 </iframe>
+<br>

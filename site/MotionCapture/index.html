@@ -78,13 +78,43 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Motion Capture</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#fontis-et-ramos">Fontis et ramos</a>
+    <li class="toctree-l2"><a class="reference internal" href="#specifications">Specifications</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#in-the-box">In the Box</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#illa-inter-humana-et-voverat-quam-qua">Illa inter humana et voverat quam qua</a>
+        </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#vosque-uno-moveri-proxima-esse-fuit">Vosque uno moveri proxima esse fuit</a>
+    <li class="toctree-l2"><a class="reference internal" href="#hardware-setup">Hardware Setup</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#venerit-spes-timidumque-et">Venerit spes timidumque et</a>
+    <li class="toctree-l2"><a class="reference internal" href="#software-setup">Software Setup</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#to-set-up-the-software-for-the-zed-2i">To Set Up the Software for the Zed 2i</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#download-zed-sdk">Download ZED SDK</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#grant-permission-to-write-to-the-zed_sdk-folder">Grant Permission to Write to the zed_sdk Folder</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#install-zed-python-api">Install ZED Python API</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#create-and-activate-environment">Create and Activate Environment</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#download-dependencies">Download Dependencies</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#run-get_python_apipy">Run get_python_api.py</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#manual-uninstall-and-reinstall-of-numpy-if-error-persists">Manual Uninstall and Reinstall of numpy (if error persists)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#manual-uninstall-and-reinstall-of-pyopengl-and-pyopengl-accelerate">Manual Uninstall and Reinstall of pyopengl and pyopengl-accelerate</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#run-body_tracking">Run body_tracking</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#to-run-the-edited-body_tracking-script-exports-to-excel">To Run the Edited body_tracking Script (Exports to Excel)</a>
+    </li>
+        </ul>
     </li>
     </ul>
                 </li>
@@ -120,64 +150,113 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="constitit-tabellae-mihi-prohibentque-novum-ineo-gravi">Constitit tabellae mihi prohibentque novum ineo gravi</h1>
-<h2 id="fontis-et-ramos">Fontis et ramos</h2>
-<p>Lorem markdownum situsque ut ligari voluptas dummodo moras fata vela lecti
-fecere parentis saxea. Primordia quia timentem suadent Heliades, Tonantis aves
-nunc tenditur. Latuere volenti solita et inprudens feras. Vidi Lichan at Aeson
-et <strong>lapis reluxit</strong>. Viri medio tamen thalami tinguet, clausas, in ambit mille,
-ego invadunt Dauno illi!</p>
-<pre><code>var port = codec - 85 - hertz;
-if (cc == log - parse_dv) {
-    output = systemMask.address(syn_ipx, winsockUndoLaser);
-    cpm += 3;
-} else {
-    parameter = olap_type_browser;
-    digitalPaper = add(ppm_bot, cloud_minisite_networking) +
-            peripheral_quad_radcab;
-    passiveVersion(motion_box_address, halftoneProgram, icfVideo);
-}
-var spider_toslink = 4 - rw + hardeningBatchBoolean + 973276;
-</code></pre>
-<h2 id="illa-inter-humana-et-voverat-quam-qua">Illa inter humana et voverat quam qua</h2>
-<p>Litora saepe soceri facies et vetus. Suas Iolen laniataque miserata aptamque, ad
-iactatis nuda, vitiasse est.</p>
-<ol>
-<li>Quam vultus me cutem fluctus stabat strepitum</li>
-<li>Repetet Tantalis Iovis</li>
-<li>Saxo nec</li>
-<li>Et mirae instructamque loqui corpore vocet deam</li>
-<li>Quod natorum adest vastum</li>
-<li>Lumina esse</li>
-</ol>
-<h2 id="vosque-uno-moveri-proxima-esse-fuit">Vosque uno moveri proxima esse fuit</h2>
-<p>Magnique moenia Herculis Daedalon amnis humus limen, dent cum tenent arbiter:
-nulli. Quodque <a href="http://versatnon.net/pictispartes">saepes</a>, quas gestu
-alimentaque ulvae postquam <strong>fata sonumque</strong>! Ima <strong>prius</strong>, est ardere summo,
-et longa caelum occumbere in dixerat trementi.</p>
+                <h1 id="zed-2i">Zed 2i</h1>
+<p><center><img alt="Zed 2i Device" src="../img/MoCap/zed.jpg" /></center></p>
+<h2 id="specifications">Specifications</h2>
+<table>
+<thead>
+<tr>
+<th>Specification</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Device Type</td>
+<td>Motion Tracking Camera</td>
+</tr>
+<tr>
+<td>Resolution</td>
+<td>1920x1080</td>
+</tr>
+<tr>
+<td>Frame Rate</td>
+<td>30 FPS</td>
+</tr>
+<tr>
+<td>Connectivity</td>
+<td>USB 3.0</td>
+</tr>
+<tr>
+<td>Power Requirement</td>
+<td>5V</td>
+</tr>
+<tr>
+<td>Dimensions</td>
+<td>150mm x 50mm x 40mm</td>
+</tr>
+</tbody>
+</table>
+<h3 id="in-the-box">In the Box</h3>
+<p>The following should be included in the box:</p>
 <ul>
-<li>Iram matrisque templa novercam iactatis clamat cupidine</li>
-<li>Et letum miserabilis modo</li>
-<li>Aequora solidumve fratri</li>
-<li>Vix probor quin breve</li>
-<li>Lux Pirenida sacrifica rapuere</li>
-<li>Aura dilata quoniam genitoris gratia</li>
+<li>1 x ZED 2i</li>
 </ul>
-<h2 id="venerit-spes-timidumque-et">Venerit spes timidumque et</h2>
-<p>Illos in cupidine avidi. Sub albus claro <strong>nitidum sidere nitentia</strong> irascere,
-<strong>silva omnes</strong> terrebit. At Thracum virgae dicta. Auras ferventibus vestis
-pervenientia detrahat Baucis, cervice sit mentoque, virtus? Exhortor palmite
-poposcit, non aetas stratosque licet Nereides: nacta inpatiens modo nihil deorum
-vilibus.</p>
-<blockquote>
-<p>Nec Procne erit proelia, umeris quem, petunt, <strong>est positis erat</strong>. Per
-dominum tractata. Sustinet quo; virilem cognoscere visa, in imago.</p>
-</blockquote>
-<p>Per visus Lycaoniae cortice. Dixit in despecta umbra. Me tulit flumine imas
-dicor aetatis orbam insula ultra sua densetur; ille. Lacteus orbis sed breve,
-cara, e tortum tepido ferrum, <em>dolet</em> oblivia Hyries equidem saevior usus
-<strong>ventis</strong>. Videre motasse, cum tela lyncum, servabunt mansit Arcadiae et
-extemplo longa.</p>
+<h2 id="hardware-setup">Hardware Setup</h2>
+<p>Follow these steps to set up the hardware:</p>
+<ol>
+<li>Unbox the Zed 2i and check all components.</li>
+<li>Connect the device to a compatible power source.</li>
+<li>Attach the USB cable to connect to the main computer.</li>
+<li>Position the device at the desired location for optimal tracking.</li>
+<li>Perform a calibration if necessary.</li>
+</ol>
+<h2 id="software-setup">Software Setup</h2>
+<h3 id="to-set-up-the-software-for-the-zed-2i">To Set Up the Software for the Zed 2i</h3>
+<h4 id="download-zed-sdk">Download ZED SDK</h4>
+<ul>
+<li>Run the installer</li>
+<li>Accept the terms</li>
+<li>Download and install CUDA if prompted</li>
+<li>Restart your computer</li>
+</ul>
+<h4 id="grant-permission-to-write-to-the-zed_sdk-folder">Grant Permission to Write to the <code>zed_sdk</code> Folder</h4>
+<ul>
+<li>Navigate to the ZED SDK folder in <code>C:\Program Files (x86)</code> in File Explorer</li>
+<li>Right-click on the folder → select <strong>Properties</strong> → go to the <strong>Security</strong> tab → click <strong>Edit</strong></li>
+<li>Select the correct user and tick the box next to <strong>Full control</strong> under <strong>Allow</strong></li>
+<li>Click <strong>Apply</strong> and <strong>OK</strong>, then restart your terminal</li>
+</ul>
+<h3 id="install-zed-python-api">Install ZED Python API</h3>
+<h4 id="create-and-activate-environment">Create and Activate Environment</h4>
+<pre><code class="language-bash">conda create -n zed_api_env python=3.11
+conda activate zed_api_env
+</code></pre>
+<h4 id="download-dependencies">Download Dependencies</h4>
+<pre><code class="language-bash">pip install pyopengl==3.1.6 numpy==1.26.4 cython opencv-python requests
+</code></pre>
+<p><em>Note: Using pip version 24.0.</em></p>
+<h4 id="run-get_python_apipy">Run <code>get_python_api.py</code></h4>
+<pre><code class="language-bash">cd &quot;C:\Program Files (x86)\ZED SDK&quot;
+python get_python_api.py
+</code></pre>
+<p><em>This should complete without errors, though it may automatically install numpy 2.0.0, which may cause issues.</em></p>
+<h4 id="manual-uninstall-and-reinstall-of-numpy-if-error-persists">Manual Uninstall and Reinstall of numpy (if error persists)</h4>
+<pre><code class="language-bash">pip uninstall numpy==2.0.0
+pip install numpy==1.26.4
+</code></pre>
+<h4 id="manual-uninstall-and-reinstall-of-pyopengl-and-pyopengl-accelerate">Manual Uninstall and Reinstall of <code>pyopengl</code> and <code>pyopengl-accelerate</code></h4>
+<ul>
+<li>Download the following files from <a href="https://drive.google.com/drive/folders/1mz7faVsrp0e6IKCQh8MyZh-BcCqEGPwx">this Google Drive link</a>:</li>
+<li><code>PyOpenGL-3.1.7-cp311-cp311-win_amd64.whl</code></li>
+<li><code>PyOpenGL_accelerate-3.1.7-cp311-cp311-win_amd64.whl</code></li>
+<li>Move the wheel files to the ZED SDK directory</li>
+<li>Install the wheels:</li>
+</ul>
+<pre><code class="language-bash">cd &quot;C:\Program Files (x86)\ZED SDK&quot;
+pip install .\PyOpenGL-3.1.7-cp311-cp311-win_amd64.whl
+pip install .\PyOpenGL_accelerate-3.1.7-cp311-cp311-win_amd64.whl
+</code></pre>
+<h4 id="run-body_tracking">Run <code>body_tracking</code></h4>
+<pre><code class="language-bash">cd &quot;ZED SDK\samples\body tracking\body tracking\python&quot;
+python body_tracking.py
+</code></pre>
+<h3 id="to-run-the-edited-body_tracking-script-exports-to-excel">To Run the Edited <code>body_tracking</code> Script (Exports to Excel)</h3>
+<ul>
+<li>Install the necessary libraries:</li>
+</ul>
+<pre><code class="language-bash">pip install pandas openpyxl
+</code></pre>
               
             </div>
           </div><footer>
