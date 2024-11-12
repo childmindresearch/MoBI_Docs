@@ -47,4 +47,9 @@ The following should be included in the box:
 
 ## Software Setup
 
-1. Coming soon
+1. Double Click on YetiX_Audio_Streamer.exe
+    <center><img src="../img/Audio/1.png" width='100px'></center>
+2. A Command Prompt will appear, showing the stream has started. Press ++ctrl++ + C to stop.
+    <center><img src="../img/Audio/2.png" width='500px'></center>
+3. Make sure YetiX_Audio shows up on your LabRecorder!
+    <center><img src="../img/Audio/3.png" width='500px'></center>
