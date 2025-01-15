@@ -4,14 +4,15 @@ nav:
   - About: about.md
   - Computing: computing.md
   - EEG: EEG.md
-  - Wearable EyeTracking: EyeTracking_Wearable.md
-  - Tabletop EyeTracking: EyeTracking_Tabletop.md
-  - Physiology: Physiology.md
+  - Wearable Eye Tracking: EyeTracking_Wearable.md
+  - Tabletop Eye Tracking: EyeTracking_Tabletop.md
+  - Electrophysiology: Physiology.md
   - Audio: Audio.md
   - Video: Video.md
   - Motion Capture: MotionCapture.md
   - 3D Scanning: 3D.md
   - Cogpsych: Cogpsych.md
+  - Appendices: appendices.md
 theme: readthedocs
 
 markdown_extensions:

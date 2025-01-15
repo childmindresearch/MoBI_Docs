@@ -2,8 +2,11 @@
 
 [C922 Pro HD Stream Webcam](https://www.logitech.com/en-us/products/webcams/c922-pro-stream-webcam.960-001087.html)
 
-<center>![C922 Pro Webcam](img/Video/webcam.png)</center>
-<center>![Yeti X Microphone Side](img/Video/webcam_tripod.png)</center>
+<center><img src="../img/Video/webcam.png" width='350px'></center>
+
+<br>
+
+<center><img src="../img/Video/webcam_tripod.png" width='350px'></center>
 
 ## Specifications
 

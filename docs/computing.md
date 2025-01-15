@@ -6,9 +6,9 @@
 
 1. Ensure that you have purchased and in your possession all components listed in [PC Components](https://pcpartpicker.com/user/cmi_mobi/saved/#view=Qg3JkL).
 2. Allocate two hours for the build process.
-3. Prepare a clean, flat, non-conductive tabletop workspace. 
-4. Obtain a phillips-head screwdriver. 
-5. Prepare an area to store all included manuals and extra hardware components. 
+3. Prepare a clean, flat, non-conductive tabletop workspace.
+4. Obtain a phillips-head screwdriver.
+5. Prepare an area to store all included manuals and extra hardware components.
 
 
 ### Assembly
@@ -17,22 +17,22 @@
     - Remove the motherboard and all included components from their packaging.
     - Place the motherboard on top of the cardboard motherboard box.
     - Remove any plastic film on the motherboard and motherboard i/o shield.
-    - Keep the motherboard accessories handy for use in later steps. 
+    - Keep the motherboard accessories handy for use in later steps.
 2. Attach the CPU.
-    - Remove the CPU from its packaging. 
-    - On the motherboard, remove the plastic CPU placeholder from the CPU socket. 
-    - Lift the CPU bracket locking arm from its holder, and lift the CPU bracket. 
+    - Remove the CPU from its packaging.
+    - On the motherboard, remove the plastic CPU placeholder from the CPU socket.
+    - Lift the CPU bracket locking arm from its holder, and lift the CPU bracket.
     - Gently place the CPU right-side up in the CPU socket. Small notches on the CPU and CPU socket indicate the correct orientation, as does the lettering on the CPU.
-    - Gently lower the CPU bracket. Gently wiggle the CPU with one finger to ensure that it remains seated properly. 
-    - Slowly lower and lock the CPU bracket locking arm. 
+    - Gently lower the CPU bracket. Gently wiggle the CPU with one finger to ensure that it remains seated properly.
+    - Slowly lower and lock the CPU bracket locking arm.
 3. Prepare the CPU cooler mount.
     - Open the CPU cooler box, and find all Intel-related components. Reference the instruction manual as needed.
     - Set up the backplate. Identify the side of the backplate that should face the motherboard. Insert four tall mounting bolts through the rear of the backplate, with bolt legs facing “upwards” through where the motherboard will be. Ensure that the triangular bolt heads are aligned with the outermost available positions on the backplate.
-    - Affix the bolts using four clip-on plastic spacers. 
+    - Affix the bolts using four clip-on plastic spacers.
     - Flip the motherboard over to its back.
     - Insert the assembled backplate bolts through the mounting holes on the motherboard.
     - Re-flip the motherboard to its front.
-    - Place one blue plastic spacer on each of the four mounting bolts. 
+    - Place one blue plastic spacer on each of the four mounting bolts.
     - Place an arc-shaped mounting bar across the top two and bottom two mounting bolts, over the blue plastic spacers. The mounting bars should make a frowny face on top of the motherboard, and a smiley face right below. Affix the mounting bars with thumb screws, finger tighten.
 4. Attach the RAM.
     - Remove the RAM from its packaging.
@@ -129,9 +129,30 @@ Gently lower the motherboard into the PC case. The CPU cooler should be at the t
 1. Go to the following [website](https://www.intel.com/content/www/us/en/download/19347/chipset-inf-utility.html) and download “Chipset INF Utility”. It will download a .exe file. Open that file open and accept the agreements. 
 2. After it is installed, restart your computer.
 
+## Wiring Diagram and Connection Schema
+
+<center><img src="../img/Computing/5.png" width='600px'></center>
+
+
+
 ## LSL & Software Setup
 
 Almost there...
 
-## Wiring Diagram and Connection Schema
 
+## Router Setup
+<center><img src="../img/Computing/1.png" width='450px'></center>
+
+1. Plug in power and press the power button located on the backside of the router.
+2. Using your device (LSL streaming computer), connect to the router, either through WiFi (SSID will be TP-Link_####, TP-Link_####_5G, TP-Link_####_6G) or the Ethernet cable (Use one of the orange LAN1 ~ LAN4 ports on the back of the router). The initial SSID and Password / PIN is provided in a Wi-Fi Info card, as well as on the bottom of the router
+3. Once connected to the router, initially, a prompt / pop-up page to set up an administrator password may appear. If so, set up the administrator password accordingly. (PLEASE NOTE THAT THIS IS NOT YOUR WIFI CONNECTION PASSWORD) If this step has been missed / does not appear, open a browser from the device connected to the router and go to one of the following addresses. From there the router connection settings can be changed. While it is recommended that the SSID and the Passwords are changed, this is not a required step:
+    - 192.168.0.1
+    - tplinkwifi.net
+4. Optional: Check the box OFDMA Enabled
+    <center><img src="../img/Computing/2.png" width='600px'></center>
+5. For Windows: If the streams are still not showing up on LabRecorder, follow these steps to allow LabRecorder to communicate through Windows Defender Firewall:
+    - From Start Menu, goto Windows Security
+    - From the list of tabs from on the left hand side, click on “Firewall & network protection”, then “Allow an app through firewall”
+    <center><img src="../img/Computing/3.png" width='600px'></center>
+    - Make sure all of the labrecorder.exe are allowed (noted with a check mark on the left side of the application name). If not, click on Change settings, and allow all the labrecorder.exe by clicking on the checkboxes next to their names, and make sure to press ok at the bottom to save your changes
+    <center><img src="../img/Computing/4.png" width='600px'></center>
