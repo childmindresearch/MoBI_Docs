@@ -40,11 +40,11 @@
 | _Integration_ | Lab Streaming Layer (LSL) |
 |               | TCP/IP |
 | _Data Format_ | TXT, H5, EDF |
-| _Accessories_ | 1x Bluetooth dongle |
+| _Accessories_ | 1x Blootooth dongle |
 |               | 1x Charger |
 |               | 1x Portable & rugged storage case |
 |               | 50x pre-gelled and disposable electrodes |
-|               | ... ^^(check when in-office)^^ |
+|               | 1x Synchronization Kit (Trigger button, Digital sync cable, LED, Digital port splitter) |
 | _User Manual_ | [PDF](https://support.pluxbiosignals.com/wp-content/uploads/2021/12/biosignalsplux-Hybrid-8-User-Manual.pdf) |
 | _Repositories_ | [GitHub](https://github.com/pluxbiosignals) |
 
@@ -153,7 +153,7 @@
 | _Electrode Number_ | 2x electrodes |
 | _Electrode Connection Type_ | Stud connectors (compatible with disposable electodes) |
 | _Reference Electrode_ | Required |
-| _Electrode Placement_ | 2 measuring electrodes must be placed along the muscle <br>and the reference electrode must be placed in a region of<br> low muscular activity (see user manual) |
+| _Electrode Placement_ | 2 measuring electrodes must be placed along the muscle and the reference electrode must be placed in a region of low muscular activity (see user manual) |
 | _Cable Length_ | 100 cm + 5 cm for each electrode cable |
 | _OpenSignals Add-On_ | Electromyography (EMG) Analysis |
 | _User Manual_ | [PDF](https://support.pluxbiosignals.com/wp-content/uploads/2021/10/biosignalsplux-Electromyography-EMG-User-Manual-1.pdf) |
@@ -176,7 +176,7 @@
 | _Operating Temperature_ | 5-40 °C |
 | _Connections_ | 1 channel |
 | _Calibration_ | Not required |
-| _Strap Length_ | 44-103 cm ^^(check when in-office)^^ |
+| _Strap Length_ | 50-110 cm (up to 150 cm when stretched) |
 | _Strap Placement_ | Thoracic or abdominal (see PZT user manual) |
 | _Cable Length_ | 100 cm |
 | _OpenSignals Add-On_ | Respiration Analysis |
@@ -412,3 +412,4 @@ The OpenSignals software already has LSL integrated, which makes set-up with LSL
 *[iOS]: iPhone Operating System
 *[dB]: Decibel
 *[pA]: Picoampere
+*[aliasing]: Misidentification of a signal frequency, introducing distortion or error
