@@ -9,7 +9,9 @@ The Child Mind Institute’s Multimodal Brain/Body Imaging (MoBI) Core accelerat
 | Samuel Louviot, PhD              | Celia Maoirano, MEng               |
 | Adam Santorelli, PhD               | Freymon Perez, BA               |
 |                | Camilla Strauss, BA               |
+
 **Project Manager:** John Vito d’Antonio-Bertagnolli, MS
+
 ## Funding Acknowledgements
 Primary support for the MoBI Core is provided by:
 - **The California Department of Health Care Services Next Generation Digital Therapeutics for the Child Youth Behavioral Health Initiative**
