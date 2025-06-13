@@ -2,6 +2,7 @@ site_name: MoBI Setup Documentation
 nav:
   - Home: index.md
   - About: about.md
+  - Software: software.md
   - Computing: computing.md
   - EEG: EEG.md
   - Wearable Eye Tracking: EyeTracking_Wearable.md
