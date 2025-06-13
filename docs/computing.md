@@ -17,7 +17,7 @@
     - Place the motherboard on top of the cardboard motherboard box.
     - Remove any plastic film on the motherboard and motherboard i/o shield.
     - Keep the motherboard accessories handy for use in later steps.
-    - Refer to the Motherboard manual to visually identify the location of each components.
+    - Refer to the Motherboard manual to visually identify the location of each component.
 2. Attach the CPU.
     - Remove the CPU from its packaging.
     - On the motherboard, remove the plastic CPU placeholder from the CPU socket.
