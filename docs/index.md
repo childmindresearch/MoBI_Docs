@@ -26,6 +26,8 @@ Primary support for the MoBI Core is provided by:
 - **NIMH Awards to Drs. Michael Milham, Gregory Kiar, Alexandre Franco, and Stan Colcombe**
 ## Additional Resources
 
+[MoBI Lab Overview Lecture](https://youtu.be/4AXerTlB5kY)
+
 [Child Mind Institute Research Github](https://github.com/childmindresearch)
 
 [Child Mind Institute Science Website](https://childmind.org/science/)
